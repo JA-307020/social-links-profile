@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(/assets/fonts/static/Inter-Bold.ttf);
+  weight: 700;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/static/Inter-Regular.ttf);
+  weight: 400;
+}
+
+@font-face {
+  font-family: "Inter-Semi-Bold";
+  src: url(/assets/fonts/static/Inter-SemiBold.ttf);
+  weight: 600;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0,0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: "Inter", arial, Verdana, sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 320px;
+  margin: 5vh auto 3vh;
+  background-color: hsl(0, 0%, 12%);
+  padding: 30px 25px 10px 25px; 
+  border-radius: 15px;
+}
+
+.profile-pic {
+  margin-bottom: 25px;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  height: 120px;
+  margin: auto;
+}
+
+.details {
+  margin-bottom: 25px;
+}
+
+.details h1 {
+  font-family: "Inter-Semi-Bold";
+  font-size: 1.5rem;
+} 
+
+.location {
+  font-family: "Inter-Semi-Bold";
+  margin-top: 7px;
+  color: hsl(75, 94%, 57%);
+}
+
+.motto {
+  margin-bottom: 23px;
+}
+
+
+.social-link {
+  font-family: "Inter-Bold";
+  font-size: 1rem;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+  padding: 10px;
+  margin: 13px 0 13px 0;
+  border-radius: 7px;
+  display: block;
+}
+
+.social-link:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0,0%, 0%);
+}
+
+.attribution { 
+  font-size: 12px; 
+  text-align: center;
+ }
+
+.attribution a { 
+  color: hsl(75, 94%, 57%);
+}
+
+@media only screen  and (min-width: 800px) {
+  .wrapper {
+    margin: 15vh auto 5vh;
+  }
+  
+}
