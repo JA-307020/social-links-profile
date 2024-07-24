@@ -31,10 +31,10 @@ body {
 }
 
 .wrapper {
-  max-width: 320px;
+  max-width: 350px;
   margin: 5vh auto 3vh;
   background-color: hsl(0, 0%, 12%);
-  padding: 30px 25px 10px 25px; 
+  padding: 35px 35px 30px 35px; 
   border-radius: 15px;
 }
 
@@ -75,7 +75,7 @@ img {
   color: hsl(0, 0%, 100%);
   text-decoration: none;
   background-color: hsl(0, 0%, 20%);
-  padding: 10px;
+  padding: 15px;
   margin: 13px 0 13px 0;
   border-radius: 7px;
   display: block;
@@ -93,6 +93,12 @@ img {
 
 .attribution a { 
   color: hsl(75, 94%, 57%);
+}
+
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    max-width: 320px;
+  }
 }
 
 @media only screen  and (min-width: 800px) {
