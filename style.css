@@ -76,7 +76,7 @@ img {
   text-decoration: none;
   background-color: hsl(0, 0%, 20%);
   padding: 13px;
-  margin: 15px 0 15px 0;
+  margin: 16px 0 16px 0;
   border-radius: 7px;
   display: block;
 }
@@ -103,7 +103,7 @@ img {
 
 @media only screen  and (min-width: 800px) {
   .wrapper {
-    margin: 20vh auto 5vh;
+    margin: 18vh auto 5vh;
   }
   
 }
